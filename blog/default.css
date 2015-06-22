@@ -60,6 +60,7 @@
       font-size: 22px;
       color: #00FFCC;
       font-weight: 600;
+      max-width: 80%;
 
     }
   
@@ -112,7 +113,7 @@ display: inline-block;
    margin-left: 25%;
    margin-bottom: 2em;
    color: #404040;
-   background-color: #00FFCC;
+   background-color: #ffffff;
    border-radius: 20px 0px 20px 0px;
 }
 
@@ -124,7 +125,7 @@ display: inline-block;
     display: block;
     margin-left: 25%;
     color: #404040;
-   background-color: #00FFCC;
+   background-color: white;
    border-radius: 20px 0px 20px 0px;
 }
 

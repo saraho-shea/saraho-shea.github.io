@@ -22,18 +22,78 @@
 
 <center>
   <section>
-    <p>
-      
-      <!-- insert content here -->
-    
-    </p>
-   
-    <p>
+    <p>Hey everyone! Welcome to week 2 of technical blog posts. This week at Dev Bootcamp we dove into HTML and CSS. HTML makes up the content of your site while CSS is where everything is stylized. Without CSS you would have a very minimal website lacking colors, fonts, images, etc. I found that adding design elements to a website through CSS to be a fun endeavor but also extremely frustrating at times. I found it very easy to go down a rabbit hole with my designs due to the trial and error nature of CSS. One thing I struggled with up front is positioning elements on a page. So, you might ask, "Why are you writing this blog post?!". Well they say the best way to learn is to  teach so that's exactly what I intend to do with this post. After some extensive research on the subject and continued trial and error with my website I now feel fully confident in my abilities to explain the beauty of CSS positioning. Let's dive in shall we...</p>
 
-    <!-- insert content here -->
-        
-    </p>
+<p>In simplest terms CSS positioning properties are what allow you to position an element on a page. There are four different positioning properties: static positioning, fixed position, relative positioning, and absolute positioning.</p>
 
+<h4>Static Positioning</h4>
+
+<p>This is the default position for all HTML elements. When an element is in the static position it simply means that it is not affected by the top, left, bottom, and right properties. An element that is static is said to not be positioned.</p>
+
+<h5>Example Code:
+
+<p>.static {</p>
+
+  <p>position: static;</p>
+
+<p>}</p>
+
+*Position would remain unchanged*</h5>
+
+
+<h4>Relative Positioning</h4>
+
+<p>When an element is assigned a relative position it means the element's position is relative to that of its' normal position. Therefore, setting the top, left, bottom, and right properties will allow the element to move away from its' normal position</p>
+
+<h5>
+Example Code:
+
+<p>h2 {</p>
+
+  <p>position: relative;</p>
+  <p>top: 50px;</p>
+
+<p>}</p>
+
+*Element would be positioned 50px from the top of its' normal position*
+</h5>
+
+<h4>Fixed Position</h4>
+
+<p>When an element is in the fixed position it means it will not move even if the window is scrolled. This useful for an element such as a footer that you want to stay at the bottom of a page.Since the fixed element remains in one place it does not affect other elements on the page.</p>. 
+
+<h5>
+Example Code:
+
+<p>h2 {</p>
+
+  <p>position: fixed;</p>
+  <p>left: 100px;</p>
+  <p>top: 150px;</p>
+
+<p>}</p>
+
+*Element will be positioned 100px from the left and 150 px from the top of the window. It will remain in this position even as the window is scrolled.*
+</h5>
+
+<h4>Absolute Positioning</h4>
+
+<p>This position is a little tricky. It acts much like a fixed position element but instead of being positioned in relation to the window, it is positioned in relation to its' nearest parent element. If there are no parent elements the absolute positioned element will move along as the page is scrolled.</p>
+
+<h5>
+Example Code:
+
+<p>h2 {</p>
+
+<p>position: absolute;</p>
+<p>top: 5px;</p>
+<p>right: 100px;</p>
+<p>}</p>
+
+*Element will be positioned 100px from the right and 5 px from the top of its' parent element.*
+</h5>
+
+<p>I hope this post has helped you to get a better handle on CSS positioning. A good way to practice what you have learned is to manipulate the CSS of a webpage using chrome devtools. You can access this by opening a webpage in chrome, then navigating to "View"-->"Developer"-->"Developer Tools".</p>
   </section>
  </center> 
 </main>
