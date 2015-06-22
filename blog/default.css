@@ -26,7 +26,9 @@
       text-align: justify;
       color: #404040;
       max-width: 80%;
+      margin-left: 10%;
     }
+    
 
  h1 { 
       font-size: 30px;
@@ -51,6 +53,14 @@
         text-align: center;
         font-size: 25px;
         color: #404040;
+    }
+
+    h5 { 
+      text-align: center;
+      font-size: 22px;
+      color: #00FFCC;
+      font-weight: 600;
+
     }
   
     ul {
