@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="default.css">
+    <title>Arrays vs. Hashes</title>
+  </head>
+<body>
+ <header>
+  <h1>Hi.I'm Sarah O'Shea.</h1><br>
+<ul>
+     <li><a href="http://saraho-shea.github.io">Home</a></li>
+    <li><a href="http://saraho-shea.github.io/blog:index.html">Blog</a></li>
+    <li><a href="#">Portfolio</a></li>
+    <li><a href="mailto:so10c@my.fsu.edu">Email</a></li>
+ </ul>
+</header>
+<main>
+  <h1>Array's vs Hashes</h1>
+  <h4>June 29, 2015</h4>
+
+    <p>
+      This week at Dev Bootcamp we touched on the Ruby basics. I am finding Ruby to be an incredibly fun language to learn but challenging all at the same time. I have definitely experienced more than a few "ah-ha" moments this week. A few of those moments came when exploring the world of arrays and hashes. In this post I am going to go over the main difference between the two and how to utilize each. 
+    </p>
+    <h4>Array</h4>
+    <p>
+    In Ruby everything is classified as an object. Arrays are ordered collections of an object. You can think of an array as a list that can contain any kind of object (string, integer, float) so long as the data is in some kind of order. The order in an array is important because you access the data by using the number it corresponds to on the list. For example, let's say you made a shopping list with milk as the first item, bread as the second, and cheese as the third. Now, let's say you wanted to access each item in the list: 
+    </p>
+<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto; margin-left: 20%; width: 60%;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%">shopping_list <span style="color: #333333">=</span> <span style="color: #333333">[</span><span style="background-color: #fff0f0">&quot;milk&quot;</span>, <span style="background-color: #fff0f0">&quot;bread&quot;</span>, <span style="background-color: #fff0f0">&quot;cheese&quot;</span><span style="color: #333333">]</span>
+
+shopping_list<span style="color: #333333">[</span><span style="color: #0000DD; font-weight: bold">0</span><span style="color: #333333">]</span> <span style="color: #333333">=&gt;</span> <span style="background-color: #fff0f0">&quot;milk&quot;</span>
+
+shopping_list<span style="color: #333333">[</span><span style="color: #0000DD; font-weight: bold">1</span><span style="color: #333333">]</span> <span style="color: #333333">=&gt;</span> <span style="background-color: #fff0f0">&quot;bread&quot;</span>
+
+shopping_list<span style="color: #333333">[</span><span style="color: #0000DD; font-weight: bold">2</span><span style="color: #333333">]</span> <span style="color: #333333">=&gt;</span> <span style="background-color: #fff0f0">&quot;cheese&quot;</span>
+</pre></div>
+<h4>Hashes</h4>
+<p>Hashes, like arrays, are collections of data except with hashes the data is stored as pairs of information. Each pair has a name and a value. The name that is used to identify a hash is called a key and it is unique to the pair. The key is what allows you to access the value that is paired to it. Let's use the shopping list example again. Let's say you wanted to get really specific with your grocery list. Instead of bread you want sourdough and instead of milk you want almond milk. To make a specified list you could use a hash. 
+<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto; margin-left: 20%; width: 60%;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%">shopping_list { <span style="background-color: #fff0f0">&quot;milk&quot;</span> <span style="color: #333333">=&gt;</span> <span style="background-color: #fff0f0">&quot;almond&quot;</span>, <span style="background-color: #fff0f0">&quot;bread&quot;</span> <span style="color: #333333">=&gt;</span> <span style="background-color: #fff0f0">&quot;sourdough&quot;</span>, <span style="background-color: #fff0f0">&quot;cheese&quot;</span> <span style="color: #333333">=&gt;</span> <span style="background-color: #fff0f0">&quot;gouda&quot;</span>}
+
+shopping_list <span style="color: #333333">[</span><span style="background-color: #fff0f0">&quot;milk&quot;</span><span style="color: #333333">]</span> <span style="color: #333333">=&gt;</span> <span style="background-color: #fff0f0">&quot;almond&quot;</span>
+
+shopping_list <span style="color: #333333">[</span><span style="background-color: #fff0f0">&quot;bread&quot;</span><span style="color: #333333">]</span> <span style="color: #333333">=&gt;</span> <span style="background-color: #fff0f0">&quot;sourdough&quot;</span>
+
+shopping_list <span style="color: #333333">[</span><span style="background-color: #fff0f0">&quot;cheese&quot;</span><span style="color: #333333">]</span> <span style="color: #333333">=&gt;</span> <span style="background-color: #fff0f0">&quot;gouda&quot;</span>
+</pre></div>
+
+</main>
+<section id="footer">
+        <a href="https://twitter.com/sarahoshea56"> <img id="twitter" src="../imgs/twitter.png" alt="tweet me" /></a>
+        <a href="https://www.linkedin.com/pub/sarah-o-shea/91/419/745"> <img id="linkedin" src="../imgs/linkedin.png" alt="linked" /></a>
+        <a href="https://instagram.com/saraho_shea/"> <img id="instagram" src="../imgs/instagram1.png" alt="instagram" /> </a>
+        <a href="https://plus.google.com/u/0/100846041460093087097/about"> <img id="google" src="../imgs/google.png" alt="googled" /> </a>
+      </section>
+</body>
+</html>
