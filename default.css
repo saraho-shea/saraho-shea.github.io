@@ -1,10 +1,6 @@
- header {
+ .main-header {
       text-align: center;
-      background-size: cover;
-      background: url("http://i.imgur.com/1E2W1jb.jpg");
-      margin: auto auto auto auto;
-      border: solid 30px white;
-      border-radius: 40px 40px 40px 40px;
+      font
       }
 
   body {
