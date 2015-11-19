@@ -116,13 +116,8 @@ display: inline-block;
 
 #footer {
   text-align: center;
-  padding-top: 20px;
 }
 
-#picture {
-  max-width: 1500px;
-  margin-left: -10px;
-}
 #twitter {
   margin-right: 4.8em;
   width: 60px;

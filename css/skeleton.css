@@ -154,10 +154,10 @@ h6 { font-size: 1.5rem; line-height: 1.6;  letter-spacing: 0; }
 p {
   margin-top: 0; }
 
-header {
+body > header {
     background: url('../images/banner.jpg') center no-repeat;
     background-size: cover;
-    height: auto;
+    min-height: 680px;
     width: 100%;
 }
 
@@ -182,8 +182,7 @@ header nav ul li a.btn {
  }
 
   header .headertext {
-  margin-top: 6em;
-  margin-bottom: 7em;
+  margin-top: 11em;
   text-shadow: 0 1px 2px rgba(0,0,0,.2);
   padding-left: 65%;
  }
@@ -199,7 +198,7 @@ header nav ul li a.btn {
  }
 
  header p {
-  color: #2F4F4F;
+  color: #262626;
   font-size: 1.8em;
   line-height: 1.5;
   text-shadow: 0 1px 2px rgba(0,0,0,.2);
@@ -215,7 +214,7 @@ header nav ul li a.btn {
  }
 
  .about h2 {
-  color: #2F4F4F;
+  color: #262626;
   font-weight: 400;
   text-shadow: 0 1px 2px rgba(0,0,0,.2);
  }
@@ -237,7 +236,7 @@ header nav ul li a.btn {
   text-align: left;
  }
  .work h2 {
-  color: #2F4F4F;
+  color: #262626;
   font-weight:400;
   text-shadow: 0 1px 2px rgba(0,0,0,.2);
   font-style: italic;
@@ -250,7 +249,7 @@ header nav ul li a.btn {
  }
 
  .work-img {
-  text-align: center;s
+  text-align: center;
  }
 
  .workbox {
@@ -264,7 +263,7 @@ header nav ul li a.btn {
  }
 
   .action h2 {
-  color: #2F4F4F;
+  color: #262626;
   font-weight: 400;
   text-shadow: 0 1px 2px rgba(0,0,0,.2);
   font-style: italic;
@@ -279,7 +278,7 @@ header nav ul li a.btn {
 
 footer {
   background: #fff;
-  padding: 1em 0;
+  padding: 2em 0;
  }
 
   footer nav ul {
@@ -310,6 +309,34 @@ footer {
   font-size:0.7em;
   margin-top:0.5em;
  }
+
+ .footertwo {
+  text-align: center;
+}
+
+.twitter {
+  margin-right: 4em;
+  width: 60px;
+  height: 60px;
+}
+.linkedin {
+  margin-right: 4em;
+  width: 60px;
+  height: 60px;
+}
+.github {
+  margin-right: 4.8em;
+}
+.instagram {
+  margin-right: 4.8em;
+  width: 60px;
+  height: 60px;
+}
+.google {
+  margin-right: 4.8em;
+  width: 60px;
+  height: 60px;
+}
 
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
