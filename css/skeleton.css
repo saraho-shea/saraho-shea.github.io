@@ -143,7 +143,7 @@ h6 { font-size: 1.5rem; line-height: 1.6;  letter-spacing: 0; }
 
 /* Larger than phablet */
 @media (min-width: 550px) {
-  h1 { font-size: 5.0rem; }
+  h1 { font-size: 7.0rem; }
   h2 { font-size: 4.2rem; }
   h3 { font-size: 3.6rem; }
   h4 { font-size: 3.0rem; }
@@ -157,7 +157,7 @@ p {
 header {
     background: url('../images/banner.jpg') center no-repeat;
     background-size: cover;
-    min-height: 680px;
+    min-height: 100%;
     width: 100%;
 }
 
@@ -182,15 +182,15 @@ header nav ul li a.btn {
  }
 
   header .headertext {
-  margin-top: 11em;
-  padding-left: 65%;
+  margin-top: 6em;
+  margin-bottom: 7em;
   text-shadow: 0 1px 2px rgba(0,0,0,.2);
+  padding-left: 65%;
  }
 
  header h1 {
   color: #FF69B4;
   font-weight:800;
-  font-size: 4.33em;
   line-height: 1;
   text-shadow: 0 1px 2px rgba(0,0,0,.2);
   margin-bottom: 0.3em;
@@ -200,7 +200,7 @@ header nav ul li a.btn {
 
  header p {
   color: #2F4F4F;
-  font-size: 2.33em;
+  font-size: 1.8em;
   line-height: 1.5;
   text-shadow: 0 1px 2px rgba(0,0,0,.2);
   margin-bottom: 1.2em;
