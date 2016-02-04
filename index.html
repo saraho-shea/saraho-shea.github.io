@@ -17,7 +17,7 @@
   <!-- Custom CSS -->
   <link href="css/scrolling-nav.css" rel="stylesheet">
 
-
+  <link rel="stylesheet" type="text/css" href="css/component.css" />
 
   <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
 
@@ -92,7 +92,7 @@
               </div>
               <div class="col-sm-8">
                 <h2>Hello, my name is Sarah O'Shea and I am a web developer based in NYC.</h2>
-                <p>I am a Manhattan transplant originally hailing from Fort Lauderdale, Florida. I am a graduate of Florida State University with a BS Degree in Information Technology. My major provided me with light coding expereince and a peek into industry standards but I was hungry for more. This is when I discovered and applied for Dev Bootcamp. I can now say that I am a full fledged web develeoper! Although I am trained in full stack my real passion is front-end web development. I think a good user experience can make such a huge difference in the delivery of a final product. It is a passion of mine to be able to hear a client's vision for a product and apply it in a technical sense. 
+                <p>I am a Manhattan transplant originally from Fort Lauderdale, Florida. I am a graduate of Florida State University with a BS Degree in Information Technology. My major provided me with light coding expereince and a peek into industry standards but I was hungry for more. This is when I discovered and applied for Dev Bootcamp. I can now say that I am a full fledged web develeoper! Although I am trained in full stack my real passion is front-end web development. I think a good user experience can make such a huge difference in the delivery of a final product. It is a passion of mine to be able to hear a client's vision for a product and apply it in a technical sense. 
                 </p>
               </div>
             </div>
@@ -103,20 +103,33 @@
         <section id="services" class="services-section">
           <div class="container">
             <div class="row">
-              <div class="col-lg-8">
-                <h2>Development</h2>
-                <p>Using essential skills such as HTML, CSS and jQuery I enjoy bringing even the most complicated designs to life as fully functional and efficient websites. I also specialize in SEO, social media marketing and e-commerce solutions. I use an agile workflow while building products. I believe it is important to be transaprent with your clients through the process of bringing their vision to life.</p>
+              <div class="col-lg-12">
+                <h2>Featured Work</h2>
+                <p>Using essential skills such as HTML, CSS and jQuery I enjoy bringing even the most complicated designs to life as fully functional and efficient websites. I use an agile workflow while building products. I believe it is important to be transaprent with your clients through the process of bringing their vision to life.</p>
               </div>
+              <div class="row">
+        <ul id="og-grid" class="og-grid">
+          <li>
+            <a href="https://nghbor-ly.herokuapp.com/" data-largesrc="images/nghborly.png" data-title="Nghborly" data-description="An instantaneous, hyperlocal web platform for connecting with your neighbors. Built in a week using Ruby on Rails, Ajax, and Foundation. I took the front-end lead for this project and was responsible for learning Foundation in under a week. We wanted the end result to have a cartoon feel but also be clean and simple.">
+              <img src="images/thumbs/1.jpg" alt="img01"/>
+            </a>
+          </li>
+          <li>
+            <a href="http://cargocollective.com/jaimemartinez/" data-largesrc="images/stackfull.png" data-title="StackOverphil"data-description="A mockup of Stack Overflow built in 3 days using Ruby on Rails. We toyed around with the idea of using a framework for the front-end but ultimately decided to use HTML/CSS to achieve a replica result of the original site. We also implemented AJAX to enhance the overall user experience.">
+              <img src="images/thumbs/2.jpg" alt="img02"/>
+            </a>
+          </li>
+          <li>
+            <a href="http://cargocollective.com/jaimemartinez/" data-largesrc="images/3.jpg" data-title="Dandelion horseradish" data-description="Cabbage bamboo shoot broccoli rabe chickpea chard sea lettuce lettuce ricebean artichoke earthnut pea aubergine okra brussels sprout avocado tomato.">
+              <img src="images/thumbs/3.jpg" alt="img03"/>
+            </a>
+          </li>
+          </ul>
+          </div>
             </div>
           </div>
         </section>
 
-
-  <!-- <div class="one-third column u-pull-right">
-  <div class="workbox">
-  <a href="http://saraho-shea.github.io"> <img class="workimg" src="images/me.jpg" alt ="header" width="200" /></a>
-  </div>
-</div> -->
 
 <!-- Contact Section -->
 <section id="contact" class="contact-section">
@@ -124,7 +137,7 @@
     <div class="row">
       <div class="col-lg-8">
         <h2>Contact</h2>
-        <p>Need a website, got a cool project or just want to say hi? Get in touch and lets start a conversation, I'd love to hear from you!</p>
+        <p>Need a website, got a cool project or just want to say hi? Lets start a conversation, I'd love to hear from you!</p>
         <button type="submit"><a href="mailto:sarahoshea56@gmail.com">Send me an Email</a></button>
       </div>
     </div>
@@ -145,7 +158,9 @@
 
 <!-- jQuery -->
 <script src="js/jquery.js"></script>
+<script src="js/modernizr.custom.js"></script>
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+<script src="js/grid.js"></script>
 
 <!-- Bootstrap Core JavaScript -->
 <script src="js/bootstrap.min.js"></script>
@@ -172,3 +187,9 @@
     });
   });
 </script>
+
+    <script>
+      $(function() {
+        Grid.init();
+      });
+    </script>
